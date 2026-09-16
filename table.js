@@ -47,7 +47,7 @@ function createTable(tableData) {
           <th style="padding: 12px; text-align: center; font-weight: bold;">이 름/GitHub</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">AI서비스개발</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">AI서비스배포</th>
-          <th style="padding: 12px; text-align: center; font-weight: bold;">RAG</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">RAG 1</th>
 
         </tr>
       </thead>
