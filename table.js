@@ -46,7 +46,6 @@ function createTable(tableData) {
         <tr style="background-color: #f2f2f2;">
           <th style="padding: 12px; text-align: center; font-weight: bold;">이 름/GitHub</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">AI서비스개발</th>
-          <th style="padding: 12px; text-align: center; font-weight: bold;">AI서비스배포</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">RAG 1</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">RAG 2</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">Agent</th>
@@ -101,7 +100,8 @@ function createTable(tableData) {
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
             ${item.link3}
           </a>
-        </td>        
+        </td>     
+         
        
     `;
   });
