@@ -48,6 +48,8 @@ function createTable(tableData) {
           <th style="padding: 12px; text-align: center; font-weight: bold;">AI서비스개발</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">AI서비스배포</th>
           <th style="padding: 12px; text-align: center; font-weight: bold;">RAG 1</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">RAG 2</th>
+          <th style="padding: 12px; text-align: center; font-weight: bold;">Agent</th>
 
         </tr>
       </thead>
@@ -93,6 +95,13 @@ function createTable(tableData) {
             ${item.link3}
           </a>
         </td>
+        <td style="padding: 10px; text-align: center;">
+          <strong>${userName}</strong><br>
+          <a href="https://github.com/${githubId}/${item.link4}" target="_blank" 
+             style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
+            ${item.link3}
+          </a>
+        </td>        
        
     `;
   });
