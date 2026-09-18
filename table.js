@@ -98,7 +98,7 @@ function createTable(tableData) {
           <strong>${userName}</strong><br>
           <a href="https://github.com/${githubId}/${item.link4}" target="_blank" 
              style="color: #0066cc; text-decoration: none; font-size: 0.9em;">
-            ${item.link3}
+            ${item.link4}
           </a>
         </td>     
          
